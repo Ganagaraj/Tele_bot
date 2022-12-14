@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(
     bodyParser.urlencoded({ extended: true })
 );
-app.get("/new-message",(req,res)=>{
+app.get("/",(req,res)=>{
     res.end("<h1>Telegram bot</h1>")
 })
 /*app.post("/new-message", (request, response) => {
