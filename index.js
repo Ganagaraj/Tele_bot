@@ -11,9 +11,7 @@ app.get("/",(req,res)=>{
     res.end("<h1>Telegram bot</h1>")
 })
 
-app.get("/new-message",(req,res)=>{
-    res.end("<h1>Telegram message bot</h1>")
-})
+
 
 /*app.post("/new-message", (request, response) => {
     const { message } = request.body;
