@@ -16,7 +16,7 @@ app.post("/new-message", (request, response) => {
         }).then((res) => {
             console.log(res + " from tele bot");
         }).catch((err) => {
-            console.log(err);
+            console.log(err);  
         })
     }
 
