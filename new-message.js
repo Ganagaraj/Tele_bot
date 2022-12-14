@@ -9,6 +9,6 @@ app.use(
 );
 
 
-app.get("/new-message",(req,res)=>{
+app.get("/",(req,res)=>{
     res.end("<h1>Telegram message bot</h1>")
 })
