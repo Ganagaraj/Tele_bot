@@ -18,9 +18,10 @@ app.post("/new-message", (request, response) => {
             text: "well he is my boss",
         }).then((res) => {
             console.log(res + " from tele bot");
-            
+            response.end('done')
         }).catch((err) => {
             console.log(err);  
+            response.end(err);
         })
     }
 
