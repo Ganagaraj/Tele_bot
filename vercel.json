@@ -6,8 +6,8 @@
     }],
     "routes": [
     {
-        "src":"/",
-        "dest": "/"
+        "src":"/new-message",
+        "dest": "/new-message"
     }
 ]
 }
