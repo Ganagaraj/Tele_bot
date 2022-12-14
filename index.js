@@ -7,6 +7,9 @@ app.use(bodyParser.json());
 app.use(
     bodyParser.urlencoded({ extended: true })
 );
+app.get("/",(req,res)=>{
+    res.end("<h1>noooooo</h1>")
+})
 app.post("/new-message", (request, response) => {
     const { message } = request.body;
     if (message.toLowerCase() == 'ganagaraj') {
