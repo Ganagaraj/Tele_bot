@@ -10,7 +10,7 @@ app.use(
 app.get("/new-message",(req,res)=>{
     res.end("<h1>Telegram bot</h1>")
 })
-app.post("/new-message", (request, response) => {
+/*app.post("/new-message", (request, response) => {
     const { message } = request.body;
         axios.post("https://api.telegram.org/bot5880824097:AAFm5kqNB_2gv3993pDSN5V6alXnKN4hbSU/sendMessage", {
             chat_id: message.chat.id,
@@ -23,7 +23,7 @@ app.post("/new-message", (request, response) => {
             response.end(err);
         })
 
-})
+})*/
 
 app.listen(8080, () => {
     console.log("listening @ 8080");
